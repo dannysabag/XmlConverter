@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class ServerApplication {
 
     public static void main(String[] args) {
-        log.info("Starting XML Converter, at: {}", LocalDateTime.now());
+        log.info("Starting XML Converter,  at: {}", LocalDateTime.now());
         SpringApplication.run(ServerApplication.class, args);
         System.out.println("testing...");
     }
